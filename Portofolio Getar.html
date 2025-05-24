@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Host Livestream - Getar Sukma Nugraha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Menggunakan font Inter dari Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdf4; /* Warna latar belakang lembut (Emerald-50) */
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .section-title {
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: 700; /* font-bold */
+            color: #065f46; /* Emerald 800 - untuk judul */
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 1rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .btn-primary {
+            background-color: #059669; /* Emerald 600 - untuk tombol */
+            color: #ffffff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem; /* rounded-lg */
+            font-weight: 600; /* font-semibold */
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #047857; /* Emerald 700 - hover tombol */
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.75rem; /* rounded-lg */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        /* Style untuk TikTok embed agar responsif dan di tengah */
+        .tiktok-embed-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem; /* mt-6 */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
+        .tiktok-embed {
+            width: 100%; /* Agar responsif dalam container */
+            max-width: 605px; /* Batasi lebar maksimal sesuai rekomendasi TikTok */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center py-12 bg-emerald-500 text-white rounded-xl shadow-lg mb-8">
+            <div class="flex flex-col items-center">
+                <img src="https://imgur.com/gS2xsoj.jpeg" alt="Foto Profil Getar Sukma Nugraha" class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-md mb-4">
+                <h1 class="text-5xl font-bold mb-2">Halo, Saya Getar Sukma Nugraha</h1>
+                <p class="text-xl font-light">Profesional Livestream & Streamer Gaming</p>
+                <p class="mt-4 max-w-2xl mx-auto text-lg">
+                    Lulusan Hubungan Internasional yang proaktif dan bersemangat, dengan pengalaman substansial di bidang *streaming* dan lingkungan organisasi. Berkomitmen untuk pembelajaran berkelanjutan, adaptasi cepat, dan kontribusi efektif baik secara tim maupun individu.
+                </p>
+            </div>
+        </header>
+
+        <section class="mb-8">
+            <h2 class="section-title">Pengalaman Livestream & Streaming</h2>
+
+            <div class="card">
+                <h3 class="text-3xl font-semibold text-gray-800 mb-4">YouTube Streaming (Gaming)</h3>
+                <p class="text-gray-600 mb-2">**Platform:** YouTube</p>
+                <p class="text-gray-600 mb-4">**Periode:** 2020 - 2022</p>
+                <p class="text-gray-700 mb-4">
+                    Mengelola dan membawakan sesi *streaming* gaming di YouTube, berfokus pada pembangunan komunitas dan interaksi audiens. Bertanggung jawab atas perencanaan konten, menjaga dinamika siaran yang menarik, dan mendorong *engagement* penonton.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h4 class="text-xl font-medium text-gray-800 mb-2">Pencapaian & Metrik:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Membangun komunitas dengan **33 *subscriber*** di YouTube.</li>
+                            <li>Berpengalaman dalam *streaming* berbagai judul game populer seperti Valorant dan Among Us.</li>
+                            <li>[SARAN: Rata-rata Penonton per Sesi YouTube]</li>
+                            <li>[SARAN: Puncak Penonton Tertinggi YouTube]</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-medium text-gray-800 mb-2">Keterampilan Utama:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Komunikasi Interpersonal & Interaksi Audiens</li>
+                            <li>Manajemen Komunitas Online</li>
+                            <li>Pengembangan Konten Kreatif Gaming</li>
+                            <li>Manajemen Waktu Siaran</li>
+                        </ul>
+                    </div>
+                </div>
+                <h4 class="text-xl font-medium text-gray-800 mb-4">Cuplikan Channel YouTube:</h4>
+                <div class="grid grid-cols-1 gap-4 mb-4">
+                    <img src="https://imgur.com/CzGm7ho.jpg" alt="Screenshot Channel YouTube Getar Sukma Nugraha" class="w-full h-auto rounded-lg shadow-md">
+                </div>
+                <a href="https://www.youtube.com/@getarsukmanugraha5841" target="_blank" class="btn-primary inline-block text-center mt-4">Kunjungi Channel YouTube</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-3xl font-semibold text-gray-800 mb-4">Twitch Streaming (Gaming)</h3>
+                <p class="text-gray-600 mb-2">**Platform:** Twitch</p>
+                <p class="text-gray-600 mb-4">**Periode:** 2020 - 2022</p>
+                <p class="text-gray-700 mb-4">
+                    Fokus pada pembangunan kehadiran dan interaksi langsung dengan penonton di Twitch. Bertanggung jawab dalam menjaga alur *streaming* yang menarik dan merespons interaksi *chat* secara *real-time* untuk mempertahankan audiens.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h4 class="text-xl font-medium text-gray-800 mb-2">Pencapaian & Metrik:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Membangun basis pengikut di Twitch (**10 *followers***).</li>
+                            <li>Berpengalaman dalam *streaming* game dan interaksi langsung dengan komunitas.</li>
+                            <li>[SARAN: Rata-rata Penonton per Sesi Twitch]</li>
+                            <li>[SARAN: Puncak Penonton Tertinggi Twitch]</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-medium text-gray-800 mb-2">Keterampilan Utama:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Interaksi Audiens & Responsif</li>
+                            <li>Manajemen Chat & Komunitas</li>
+                            <li>Keterampilan Gaming & Komentator</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="https://www.twitch.tv/bajing__" target="_blank" class="btn-primary inline-block text-center mt-4">Kunjungi Channel Twitch</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-3xl font-semibold text-gray-800 mb-4">Streaming TikTok (Host Live Jastip & Gaming)</h3>
+                <p class="text-gray-600 mb-2">**Platform:** TikTok</p>
+                <p class="text-gray-600 mb-4">**Periode:** 2024 - Sekarang</p>
+                <p class="text-gray-700 mb-4">
+                    Berperan sebagai host live untuk sesi jastip dan gaming di TikTok. Bertanggung jawab dalam promosi produk, interaksi langsung dengan audiens, penanganan pertanyaan, serta pengelolaan rekapitulasi pesanan pelanggan. Pengalaman ini mengasah kemampuan komunikasi persuasif dan manajemen *e-commerce live*.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h4 class="text-xl font-medium text-gray-800 mb-2">Metrik & Pencapaian:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Total Pengikut TikTok: **1,581**</li>
+                            <li>Total Likes TikTok: **296**</li>
+                            <li>Berpengalaman dalam sesi live jastip (contoh: Harry Potter X Miniso) dan gaming.</li>
+                            <li>[SARAN: Rata-rata Penonton Live Jastip]</li>
+                            <li>[SARAN: Puncak Penonton Live Jastip]</li>
+                            <li>[SARAN: Data Penjualan/Konversi dari Jastip]</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-medium text-gray-800 mb-2">Keterampilan Utama:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Komunikasi Penjualan & Persuasif</li>
+                            <li>Interaksi Audiens & Manajemen Q&A</li>
+                            <li>Manajemen Livestream E-commerce</li>
+                            <li>Rekapitulasi Data Pelanggan</li>
+                            <li>Adaptasi Konten Cepat</li>
+                        </ul>
+                    </div>
+                </div>
+                <h4 class="text-xl font-medium text-gray-800 mb-4">Cuplikan Profil & Analitik TikTok:</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <img src="https://imgur.com/f3BQE7H.jpg" alt="Screenshot Analitik Livestream - Data Views dan Engagement" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="https://imgur.com/X9VA5dI.jpg" alt="Screenshot Analitik Livestream - Data Followers" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="https://imgur.com/o1ZI8if.jpg" alt="Screenshot Analitik Livestream - Data Post Views dan Profile Views" class="w-full h-auto rounded-lg shadow-md">
+                </div>
+                <a href="https://www.tiktok.com/@lowbat_12" target="_blank" class="btn-primary inline-block text-center mt-4">Kunjungi Profil TikTok</a>
+
+                <h4 class="text-xl font-medium text-gray-800 mt-6 mb-4">Cuplikan Video Livestream Jastip:</h4>
+                <div class="tiktok-embed-wrapper">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lowbat_12/video/7432187505656515845" data-video-id="7432187505656515845" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lowbat_12" href="https://www.tiktok.com/@lowbat_12?refer=embed">@lowbat_12</a> miminya nya pusing gaes @Alifia <a title="capcut" target="_blank" href="https://www.tiktok.com/tag/capcut?refer=embed">#CapCut</a> <a title="jastip" target="_blank" href="https://www.tiktok.com/tag/jastip?refer=embed">#jastip</a> <a title="jastipminisoxharrypotter" target="_blank" href="https://www.tiktok.com/tag/jastipminisoxharrypotter?refer=embed">#jastipminisoxharrypotter</a> <a title="miniso" target="_blank" href="https://www.tiktok.com/tag/miniso?refer=embed">#miniso</a> <a title="harrypotter" target="_blank" href="https://www.tiktok.com/tag/harrypotter?refer=embed">#harrypotter</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="surabaya" target="_blank" href="https://www.tiktok.com/tag/surabaya?refer=embed">#surabaya</a> <a target="_blank" title="♬ sonido original - MELISSA Elly 🌺" href="https://www.tiktok.com/music/sonido-original-7257105406027483930?refer=embed">♬ sonido original - MELISSA Elly 🌺</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+                <h4 class="text-xl font-medium text-gray-800 mt-6 mb-4 text-center">Cuplikan Video Livestream Jastip Tambahan:</h4>
+                <div class="tiktok-embed-wrapper">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lowbat_12/video/7431140726127234322" data-video-id="7431140726127234322" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lowbat_12" href="https://www.tiktok.com/@lowbat_12?refer=embed">@lowbat_12</a> hostnya lagi butuh aq*a nih guys 🫠 <a title="minisoxharrypotter" target="_blank" href="https://www.tiktok.com/tag/minisoxharrypotter?refer=embed">#minisoxharrypotter</a> <a title="harrypotter" target="_blank" href="https://www.tiktok.com/tag/harrypotter?refer=embed">#harrypotter</a> <a title="nailong" target="_blank" href="https://www.tiktok.com/tag/nailong?refer=embed">#nailong</a> <a title="miniso" target="_blank" href="https://www.tiktok.com/tag/miniso?refer=embed">#miniso</a> <a title="jastip" target="_blank" href="https://www.tiktok.com/tag/jastip?refer=embed">#jastip</a>  <a title="dibuangsayang" target="_blank" href="https://www.tiktok.com/tag/dibuangsayang?refer=embed">#dibuangsayang</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> @Alifia <a target="_blank" title="♬ original sound  - LowBat" href="https://www.tiktok.com/music/original-sound-LowBat-7431140756016450321?refer=embed">♬ original sound  - LowBat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="section-title">Keterampilan Tambahan</h2>
+            <div class="card">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Keterampilan Komunikasi & Interaksi:</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Komunikasi Interpersonal Efektif</li>
+                            <li>Adaptabilitas & Pembelajaran Berkelanjutan</li>
+                            <li>Kemampuan Berinteraksi dengan Berbagai Latar Belakang Profesional</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Keterampilan Teknis:</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Penggunaan OBS Studio/Streamlabs (jika relevan)</li>
+                            <li>Basic Editing Video (untuk highlight)</li>
+                            <li>Manajemen Audio & Visual</li>
+                            <li>Basic Troubleshooting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Keterampilan Lainnya:</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Kolaborasi Tim Efektif</li>
+                            <li>Mahir Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+                            <li>Kemampuan Bahasa Inggris (TOEFL 580, EF SET C1)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="section-title">Pendidikan</h2>
+            <div class="card">
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li><b>Universitas Brawijaya</b> | Malang</li>
+                    <p class="ml-4">Sarjana Ilmu Politik (S.IP), Hubungan Internasional | Agustus 2018 - April 2025</p>
+                    <li><b>SMA Negeri 5</b> | Surabaya</li>
+                    <p class="ml-4">IPA | 2015-2018</p>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="card text-center">
+                <p class="text-lg text-gray-700 mb-4">
+                    Tertarik untuk berkolaborasi atau ingin tahu lebih banyak? Jangan ragu untuk menghubungi saya.
+                </p>
+                <div class="space-y-3">
+                    <p class="text-xl font-medium text-gray-800">Email: <a href="mailto:getarsukmanugraha@gmail.com" class="text-emerald-600 hover:underline">getarsukmanugraha@gmail.com</a></p>
+                    <p class="text-xl font-medium text-gray-800">Telepon/WhatsApp: <a href="https://wa.me/6287821979154" target="_blank" class="text-emerald-600 hover:underline">087821979154</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-6 text-gray-600 text-sm">
+            <p>© 2025 Portofolio Getar Sukma Nugraha. Semua Hak Dilindungi.</p>
+        </footer>
+    </div>
+</body>
+</html>

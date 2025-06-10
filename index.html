@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Getar Sukma Nugraha</title>
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Getar SN</div>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="cv.html">CV Online</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Getar Sukma <br>Nugraha</h1>
+                <p>Lulusan Hubungan Internasional yang proaktif, bersemangat, dan berpengalaman sebagai <strong>streamer</strong>.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+                    <a href="cv.html" class="btn"><em>Curriculum Vitae</em></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/FotoProfil.jpeg" alt="Foto Profil Getar Sukma Nugraha">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <p>Sebagai lulusan Hubungan Internasional, saya memiliki minat yang mendalam pada dinamika politik, hubungan antarnegara, serta isu-isu budaya dan pariwisata. Saya seorang individu yang proaktif dan bersemangat dalam setiap kesempatan untuk belajar dan berkembang.</p>
+                <p>Pengalaman magang saya di Dinas Kebudayaan dan Pariwisata Provinsi Jawa Timur sebagai staf bidang Pemasaran Pariwisata telah memperkaya pemahaman saya tentang strategi promosi destinasi wisata. Saya juga aktif sebagai <strong>Streamer</strong> di platform YouTube dan TikTok Live, membangun komunitas, serta memiliki pengalaman dalam manajemen media sosial dan penulisan konten.</p>
+                <p>Dengan latar belakang ini, saya mencari peluang untuk berkontribusi dalam lingkungan yang dinamis, baik di bidang pemerintahan, organisasi internasional, maupun industri kreatif.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>Portofolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="assets/portfolio_img/Logo YT.png" alt="Analitik YouTube Live">
+                    <h3>Analitik Performa YouTube Live</h3>
+                    <p>Ringkasan data analitik dari sesi YouTube Live, menunjukkan metrik penting seperti durasi tonton, rata-rata penonton, dan interaksi.</p>
+                    <a href="#" class="btn-small portfolio-detail-trigger" data-detail="youtube-analytics">Lihat Screenshot</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio_img/Logo TT.png" alt="Analitik TikTok Live">
+                    <h3>Analitik Performa TikTok Live</h3>
+                    <p>Data analitik dari sesi TikTok Live, mencakup metrik seperti jumlah penonton, total suka, dan hadiah yang diterima.</p>
+                    <a href="#" class="btn-small portfolio-detail-trigger" data-detail="tiktok-analytics">Lihat Screenshot</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Hubungi Saya</h2>
+            <p>Tertarik untuk berkolaborasi atau ingin tahu lebih banyak? Silakan hubungi saya melalui:</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:getarsukmanugraha@gmail.com">getarsukmanugraha@gmail.com</a></p>
+                <p>Telepon: <a href="https://wa.me/6287821979154">087821979154 </a></p>
+                 <div class="social-links">
+                    <a href="https://www.tiktok.com/@lowbat_12" target="_blank" rel="noopener noreferrer">TikTok</a>
+                    <a href="https://www.youtube.com/@getarsukmanugraha5841" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Getar Sukma Nugraha. Hak Cipta Dilindungi.</p>
+    </footer>
+
+   <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <div class="slider-container">
+                <button class="slider-btn prev-btn">❮</button>
+                <img id="modalCertificateImage" src="" alt="Sertifikat">
+                <button class="slider-btn next-btn">❯</button>
+            </div>
+            <embed id="modalCertificatePdf" src="" type="application/pdf" width="100%" height="500px" style="display: none;">
+            <p id="modalDescription" style="margin-top: 15px; text-align: center;"></p>
+            <div id="slideCounter" style="margin-top: 5px; color: var(--text-color-light);"></div>
+        </div>
+    </div>
+    <!-- Link ke file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
